@@ -1,18 +1,20 @@
 body {
-
-}
-
-#index {
     background: #EEE;
-    width: 1080px;
+}
+a {
+    text-decoration: none;
+}
+#index {
+    background: #FFF;
+    width: 1000px;
     margin: 0 auto;
 }
 
 #header {
     padding: 20px 5px 5px 20px;
-    overflow: hidden;
     height: 100px;
-    background: #fff;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
 
 #head1 {
@@ -25,6 +27,5 @@ body {
     float: left;
     padding-left: 15px;
     font-size: 36px;
-    text-decoration: none;
     line-height: 80px;
 }
