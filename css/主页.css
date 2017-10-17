@@ -1,0 +1,30 @@
+body {
+
+}
+
+#index {
+    background: #EEE;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 20px 5px 5px 20px;
+    overflow: hidden;
+    height: 100px;
+    background: #fff;
+}
+
+#head1 {
+    float: left;
+    height: 80px;
+    width: 80px;
+}
+
+#head2 {
+    float: left;
+    padding-left: 15px;
+    font-size: 36px;
+    text-decoration: none;
+    line-height: 80px;
+}
