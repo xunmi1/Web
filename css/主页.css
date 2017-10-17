@@ -1,19 +1,47 @@
 body {
-    background: #EEE;
+    /*background: #EEE;*/
+    background-image: url("../img/pack.png");
 }
 a {
     text-decoration: none;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+li a:hover {
+    background-color: deepskyblue;
+}
+
+.active {
+    background-color: deepskyblue;
+}
+
 #index {
-    background: #FFF;
     width: 1000px;
     margin: 0 auto;
+    background-color: rgba(255,255,255,0.35);
 }
 
 #header {
     padding: 20px 5px 5px 20px;
     height: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     overflow: hidden;
 }
 
