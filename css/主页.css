@@ -1,10 +1,12 @@
+@charset "utf-8";
 body {
     /*background: #EEE;*/
     background-image: url("../img/pack.png");
 }
 
 a {
-    text-decoration: none; /*去掉下划线*/
+    /*去掉下划线*/
+    text-decoration: none;
     text-align: center;
 }
 
@@ -36,8 +38,6 @@ a {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #333;
 }
@@ -49,11 +49,12 @@ li {
 li a, .drop-btn {
     display: block;
     color: white;
-    padding: 15px 15px;
+    padding: 14px 14px;
 }
 
 .drop {
     display: inline-block;
+    float: right;
 }
 
 .drop-text {
@@ -83,4 +84,29 @@ li a:hover, .drop:hover .drop-btn {
 /*修改二级菜单颜色*/
 .drop-text a:hover {
     background-color: rgba(100, 100, 200, 1);
+}
+
+/*内容部分*/
+article {
+    max-height: 2000px;
+}
+
+section {
+    width: 464px;
+    min-height: 0px;
+    max-height: 600px;
+    margin: 16px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgb(221, 221, 221);
+    overflow: hidden;
+    float: left;
+}
+
+section h {
+    font-size: 28px;
+}
+
+section p {
+    text-indent: 2em;
 }
