@@ -13,4 +13,7 @@ var addText = function(title, content) {
         $("article").append($sec);
     }
 };
-addText(TEXT.t1.title, TEXT.t1.content);
+
+$(function() {
+    addText(TEXT.t1.title, TEXT.t1.content);
+});

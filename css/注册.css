@@ -1,0 +1,25 @@
+@charset "utf-8";
+body {
+    background-image: url("../img/pack.png");
+}
+
+a {
+    /*去掉下划线*/
+    text-decoration: none;
+    text-align: center;
+}
+
+#index {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 30px 0 102px;
+    width: 400px;
+
+}
+
+.inputs {
+    padding: 1px 0;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+}
+
