@@ -1,8 +1,8 @@
 $("form :input").blur(function() {       /*表单选择器，返回form中的所有表单对象,添加失去焦点事件*/
     var $parent = $(this).parent();
     var msg = "";
-    $parent.find(".msg").remove();
     /*删掉旧的msg*/
+    $parent.find(".msg").remove();
 
     /*用户名验证*/
     /*this属于DOM对象，$(this)属于JQuery对象*/
@@ -32,7 +32,7 @@ $("form :input").blur(function() {       /*表单选择器，返回form中的所
     $(this).triggerHandler("blur");
 });
 
-
+/*重新验证全部的必填的输入框*/
 $("#send").click(function() {
     $("form :input[required]").trigger('blur');
     var falseMsg = $('form #false').length;
