@@ -1,45 +1,51 @@
 @charset "utf-8";
 body {
-    background-image: url("../img/pack.png");
+    background-image: url('../img/pack.png');
 }
 
 a {
+    text-align: center;
     /*去掉下划线*/
     text-decoration: none;
-    text-align: center;
 }
 
 #index {
     width: 1000px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.35);
 
+    background-color: rgba(255, 255, 255, .35);
 }
 
 #header {
-    padding: 20px 5px 5px 20px;
     height: 100px;
     margin-bottom: 6px;
+    padding: 20px 5px 5px 20px;
 }
 
 #head1 {
     float: left;
-    height: 80px;
+
     width: 80px;
+    height: 80px;
 }
 
 #head2 {
-    float: left;
-    padding-left: 15px;
     font-size: 36px;
     line-height: 80px;
+
+    float: left;
+
+    padding-left: 15px;
 }
 
 /*导航栏部分*/
 ul {
-    padding: 0px 24px 0px 24px;
-    list-style-type: none;
     overflow: hidden;
+
+    padding: 0 24px 0 24px;
+
+    list-style-type: none;
+
     background-color: #334;
 }
 
@@ -47,10 +53,13 @@ li {
     float: left;
 }
 
-li a, .drop-btn {
+li a,
+.drop-btn {
     display: block;
-    color: white;
+
     padding: 14px 14px;
+
+    color: white;
 }
 
 .drop {
@@ -59,16 +68,18 @@ li a, .drop-btn {
 }
 
 .drop-text {
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 92px;
-    display: none;
     position: absolute;
 
+    display: none;
+
+    width: 92px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .drop-text li {
     width: 92px;
+
     border-bottom: 1px solid #555;
 }
 
@@ -88,15 +99,17 @@ article {
 }
 
 section {
+    float: left;
+    overflow: hidden;
+
     width: 464px;
-    min-height: 0px;
+    min-height: 0;
     max-height: 600px;
     margin: 16px;
-    background-color: #fff;
-    border-radius: 4px;
+
     border: 1px solid rgb(221, 221, 221);
-    overflow: hidden;
-    float: left;
+    border-radius: 4px;
+    background-color: #fff;
 }
 
 section h {
@@ -108,8 +121,10 @@ section p {
 }
 
 hr {
-    border: none;
-    padding-top: 20px;
-    border-bottom: 1px solid #555;
     clear: both;
+
+    padding-top: 20px;
+
+    border: none;
+    border-bottom: 1px solid #555;
 }

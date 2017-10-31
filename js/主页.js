@@ -16,4 +16,15 @@ var addText = function(title, content) {
 
 $(function() {
     addText(TEXT.t1.title, TEXT.t1.content);
+    $(".drop-text").click(function() {
+        if (event.target == $("#text1")[0]) {
+            open("./信息.html");
+        }
+        if (event.target == $("#text2")[0]) {
+            open("./登陆.html");
+        }
+        if (event.target == $("#text3")[0]) {
+            open("./注册.html");
+        }
+    })
 });
