@@ -1,4 +1,3 @@
-
 $("form :input").blur(function() {       /*表单选择器，返回form中的所有表单对象,添加失去焦点事件*/
     var $parent = $(this).parent();
     var msg = "";

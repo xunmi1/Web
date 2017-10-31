@@ -12,9 +12,19 @@ a {
 #index {
     margin: 100px auto;
     background-color: rgba(255, 255, 255, 0.35);
-    padding: 50px 0 100px;
+    padding: 80px 0 100px;
     width: 500px;
 
+}
+
+#head1 {
+    font-family: "Microsoft YaHei";
+    font-size: 30px;
+    text-align: center;
+    color: #0f88eb;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 15px;
 }
 
 form {
@@ -22,6 +32,7 @@ form {
 }
 
 #name, #phone, #email, #pad {
+    font-family: "Microsoft YaHei";
     font-size: 16px;
     height: 22px;
     padding: 10px;
@@ -49,5 +60,5 @@ form {
 
 .msg {
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 15px;
 }

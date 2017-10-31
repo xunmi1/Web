@@ -19,12 +19,15 @@ $(function() {
     $(".drop-text").click(function() {
         if (event.target == $("#text1")[0]) {
             open("./信息.html");
+            return false;
         }
         if (event.target == $("#text2")[0]) {
             open("./登陆.html");
+            return false;
         }
         if (event.target == $("#text3")[0]) {
             open("./注册.html");
+            return false;
         }
     })
 });
