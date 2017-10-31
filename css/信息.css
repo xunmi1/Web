@@ -1,0 +1,56 @@
+a {
+    vertical-align: middle;
+}
+
+#mainInfo {
+    padding: 0px 30px 15px 30px;
+    background-color: #F9F9F9;
+}
+
+#picture {
+    border-radius: 37px;
+    padding: 2px;
+    width: 70px;
+    height: 70px;
+    background: #FFF;
+    border: 1px solid;
+    border-color: #F2F2F2 #CDCDCD #CDCDCD #F2F2F2;
+    background-color: white;
+}
+
+#userName {
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+thead th {
+    text-align: left;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+tbody td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+.bodyTitle {
+    font-size: 22px;
+    font-style: italic;
+    color: #0f88eb;
+    border-bottom: 1px solid #555;
+    padding-bottom: 4px;
+}
+
+.td1 {
+    padding-left: 15px;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    width: 80px;
+}
+
+.td2 {
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+}
