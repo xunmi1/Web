@@ -1,0 +1,47 @@
+@charset "utf-8";
+body {
+    background-image: url("../img/pack.png");
+}
+
+#index {
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 100px 0 100px;
+    width: 500px;
+
+}
+
+#head1 {
+    font-family: "Microsoft YaHei";
+    font-size: 30px;
+    color: #0f88eb;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 4px;
+
+}
+
+#searchText {
+    height: 38px;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #CDCDCD;
+    margin-left: 70px;
+
+}
+
+#search {
+    font-size: 16px;
+    width: 60px;
+    height: 38px;
+
+    background: #0f88eb;
+    border: 0;
+    color: #fff;
+    position: absolute;
+
+}
+
+#search:hover {
+    background: #55abed;
+}

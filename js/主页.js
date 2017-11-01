@@ -16,6 +16,10 @@ var addText = function(title, content) {
 
 $(function() {
     addText(TEXT.t1.title, TEXT.t1.content);
+    $("#search > input").click(function() {
+        open("./搜索.html");
+        return false;
+    })
     $(".drop-text").click(function() {
         if (event.target == $("#text1")[0]) {
             open("./信息.html");
