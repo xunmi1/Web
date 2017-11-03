@@ -26,7 +26,7 @@ $(function() {
             return false;
         }
         if (event.target == $("#text2")[0]) {
-            open("./登陆.html");
+            open("./登录.html");
             return false;
         }
         if (event.target == $("#text3")[0]) {

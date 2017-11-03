@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>登陆</title>
+    <title>登录</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/注册.css">
 </head>
 <body>
-<h id="head1">用户登陆</h>
+<h id="head1">用户登录</h>
 <div id="index">
     <form method="post" action="">
         <div class="int">
-            <input id="name" required="required" type="text" name="fullname" aria-label="用户名" placeholder="用户名/手机号/邮箱"/>
+            <input id="name" required="required" type="text" name="loginName" aria-label="用户名"
+                   placeholder="用户名/手机号/邮箱"/>
         </div>
         <div class="int">
             <input id="pad" required="required" type="password" name="password" aria-label="密码" placeholder="密码"
                    autocomplete="off"/>
         </div>
         <div class="sub">
-            <input type="submit" value="登陆" id="send"/>
+            <input type="submit" value="登录" id="send"/>
             <input type="reset" value="清空" id="res"/>
         </div>
     </form>
@@ -29,6 +30,6 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-<script src="js/登陆.js"></script>
+<script src="js/登录.js"></script>
 </body>
 </html>
