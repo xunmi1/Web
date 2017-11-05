@@ -10,7 +10,7 @@ a {
 }
 
 #index {
-    margin: 100px auto;
+    margin: 20px auto;
     background-color: rgba(255, 255, 255, 0.35);
     padding: 80px 0 100px;
     width: 500px;
@@ -21,13 +21,13 @@ a {
     font-family: "Microsoft YaHei";
     font-size: 30px;
     color: #0f88eb;
-    position: absolute;
-    margin-left: 42%;
-    margin-top: 15px;
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 120px;
 }
 
 form {
-    padding-left: 70px;
+    padding-left: 90px;
 }
 
 #name, #phone, #email, #pad {
