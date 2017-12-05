@@ -20,14 +20,14 @@ a {
     padding: 10px 5px 0px 20px;
 }
 
-header img.headImg {
+header img.head-img {
     float: left;
 
     width: 80px;
     height: 80px;
 }
 
-header .headTxt {
+header .head-txt {
     font-size: 36px;
     line-height: 80px;
 
