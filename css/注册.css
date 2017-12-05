@@ -21,8 +21,7 @@ a {
     font-family: "Microsoft YaHei";
     font-size: 30px;
     color: #0f88eb;
-    margin: 0 auto;
-    margin-top: 90px;
+    margin: 90px auto 0;
     width: 120px;
 }
 
@@ -37,7 +36,7 @@ form {
     padding: 10px;
     width: 210px;
     border: 1px solid #ddd;
-    vertical-align: middle;
+    vertical-align: middle; /*元素的对齐*/
 }
 
 #send, #res {
@@ -49,14 +48,12 @@ form {
     background: #0f88eb;
     border: 0;
     border-radius: 4px;
-    line-height: 41px;
     color: #fff;
 }
 
 #send:hover, #res:hover {
     background: #55abed;
 }
-
 .msg {
     margin-left: 10px;
     font-size: 15px;
